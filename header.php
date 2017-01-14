@@ -44,7 +44,7 @@
 
 <!-- 页面上方导航栏 -->
 
-<nav><a href="/About.html">关于</a>　·　<a href="/Guestbook.html">留言版</a>　·　<a href="/ThemePark.html">测试</a>　·　<a href="/Tags.html">标签云</a></nav>
+<nav><a href="/about-me.html">关于我</a>　·　<a href="/Guestbook.html">留言版</a>　·　<a href="/about-sparker.html">关于Sparker</a>　·　<a href="/Tags.html">标签云</a></nav>
 
             <?php else : ?>
                 <h1 class="animated fadeInDown"><a href="<?php $this->options->siteUrl(); ?>">
