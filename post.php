@@ -5,7 +5,7 @@
        <div class="span6 offset3">
 
         <!-- 面包屑导航栏 -->
-        
+
         <div class="crumbs_patch"><blockquote><guide>
            <b><a href="<?php $this->options->siteUrl(); ?>">抓荒博客</a></b> &raquo;</li>
            <?php if ($this->is('index')): ?><!-- 页面为首页时 -->
@@ -26,12 +26,12 @@
 
         <h2 class="entry_title"><?php $this->title() ?></h2>
 
-        
-        
+
+
         <p class="entry_data">
             <span><?php //_e('作者：'); ?><?php //$this->author(); ?></span>
-            
-            
+
+
         </p>
         <?php $this->content(); ?>
 
@@ -39,7 +39,7 @@
 
         <div class="muted">
          <p class="text-right">
-            CATEGORY: <?php $this->category(','); ?> · TAGS: <?php $this->tags(' · ', true, 'none'); ?><br>◄ 扫描二维码手机浏览或在微信内分享</p>
+         CATEGORY: <?php $this->category(','); ?> · TAGS: <?php $this->tags(' · ', true, 'none'); ?><br><br><br></p>
         </div>
 
 
@@ -55,7 +55,7 @@
           <span>打赏</span>
       </button>
       <div id="QR" style="display: none;">
-          
+
         <div id="wechat" style="display: inline-block">
           <a class="fancybox" rel="group"><img id="wechat_qr" src="/weixin.png" alt="WeChat Pay"></a>
           <div class="muted">微信打赏</div>

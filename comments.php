@@ -1,7 +1,7 @@
 <div id="comments">
             <?php $this->comments()->to($comments); ?>
             <?php if ($comments->have()): ?>
-			<h4  title="此处显示的评论数也包括了作者本人对其他人评论的回复"><?php $this->commentsNum(_t('No Comment'), _t('1 Comment'), _t('%d Comments')); ?> &raquo;</h4>
+			<h4 style="margin-bottom: 0;"><?php $this->commentsNum(_t('No Comment'), _t('1 Comment'), _t('%d Comments')); ?> &raquo;</h4>
             
             <?php $comments->pageNav(); ?>
 
