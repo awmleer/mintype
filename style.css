@@ -21,7 +21,7 @@ ol li{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:16px;lin
 blockquote p{margin-bottom: 2em;margin-top: 2em;font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:16px;line-height:260%;font-weight: 300;}
 .muted{text-align:center;margin-bottom: 2em;font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:14px;}
 
-p.footer{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:12px;line-height:260%;font-weight: 300;margin-bottom: 0;text-align:center;  text-transform: uppercase;background:#333; color:#fff;}
+p.footer{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:12px;line-height:260%;font-weight: 300;margin-bottom: 0;text-align:center; background:#333; color:#fff;}
 
 #header {
 	margin-top: 45px;

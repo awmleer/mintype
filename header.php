@@ -34,7 +34,7 @@
     <div class="span6 offset3">
         <div class="row">
             <?php if ($this->is('index')) : ?>
-                <h1 class="text-center animated fadeInDown">
+                <h1 class="text-center animated fadeInDown" style="font-size: 40px;font-weight: normal;line-height: 30px;">
                 <?php if ($this->options->logoUrl): ?>
                     <img height="60" src="<?php $this->options->logoUrl() ?>" alt="<?php $this->options->title() ?>" />
                 <?php endif; ?>
