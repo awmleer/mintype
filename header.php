@@ -51,7 +51,8 @@
                 <?php if ($this->options->logoUrl): ?>
                     <img height="60" src="<?php $this->options->logoUrl() ?>" alt="<?php $this->options->title() ?>" />
                 <?php endif; ?>
-                <?php _e("&lt&lt ") ?><?php $this->options->title() ?>
+                <?php _e("&lt&lt ") ?>主页
+                <!--<?php $this->options->title() ?>-->
                 </a></h1>
             <?php endif ?>
         </div>

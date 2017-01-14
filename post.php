@@ -4,20 +4,6 @@
 	<div class="row">
        <div class="span6 offset3">
 
-        <!-- 面包屑导航栏 -->
-
-        <div class="crumbs_patch"><blockquote><guide>
-           <b><a href="<?php $this->options->siteUrl(); ?>">抓荒博客</a></b> &raquo;</li>
-           <?php if ($this->is('index')): ?><!-- 页面为首页时 -->
-              Latest Post
-          <?php elseif ($this->is('post')): ?><!-- 页面为文章单页时 -->
-              <b><?php $this->category(); ?></b> &raquo; <i>《<?php $this->title() ?>》</i>
-          <?php else: ?><!-- 页面为其他页时 -->
-              <?php $this->archiveTitle(' &raquo; ','',''); ?>
-          <?php endif; ?></guide></blockquote>
-      </div>
-
-
       <div class="row apost">
 
          <p><div class="muted" title="阅读数对单个独立 IP 的多次访问仅会统计一次，统计功能由插件 TePostViews 提供，实际访问数据可能与插件统计数据有一定的差异。">
