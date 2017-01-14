@@ -1,0 +1,224 @@
+body{
+	font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif, microsoft yahei;
+}
+
+
+h1{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:20px;color:#000;line-height:240%;margin-bottom: 5px;font-weight: 600;}
+h2{font-family:'Helvetica Neue', Helvetica, Microsoft yahei;font-size:1.5em;color:#111;line-height:260%;font-weight: 600;text-align:center;}
+h3{font-family:'Helvetica Neue', Helvetica, Microsoft yahei;font-size:17px;color:#222;line-height:260%;font-weight: 600;}
+h4{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:16px;color:#333;line-height:260%;font-weight: 600;}
+h5{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:0.875em;color:#999;line-height:260%;font-weight: 300;}
+p{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:16px;line-height:260%;font-weight: 300;margin-bottom: 1em;}
+guide{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:14px;line-height:260%;font-weight: 300;margin-bottom: 1em;color:#999;}
+.attachment{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:16px;line-height:220%;font-weight: 300;margin-bottom: 0.75em;text-align:center;}
+ol li{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:16px;line-height:260%;font-weight: 300;margin-bottom: 1em;}
+#tag_cloud{font-style:normal;font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:16px;line-height:260%;font-weight: 300;margin-bottom: 1em;}
+
+
+
+
+blockquote p{margin-bottom: 2em;margin-top: 2em;font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:16px;line-height:260%;font-weight: 300;}
+.muted{text-align:center;margin-bottom: 2em;font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:14px;}
+
+p.footer{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:12px;line-height:260%;font-weight: 300;margin-bottom: 1em;text-align:center;  text-transform: uppercase;background:#333; color:#fff;}
+
+#header {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.hidden-head {
+	visibility: hidden;
+
+}
+
+.hidden-head:hover {
+	visibility: visible;
+}
+
+#sidebar {
+	font-size: 14px;
+font-family:'Helvetica Neue', Helvetica,Microsoft yahei;line-height:260%;font-weight: 300;margin-bottom: 1em;
+}
+
+
+
+/* default hyperlink color */
+a {
+	color: inherit;
+}
+
+.apost {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+
+/* ------------------
+ * comment list
+ * --------------- */
+#comments {
+margin-top: 20px;
+}
+
+#comments h4 {
+font-size: 17px;
+font-weight: bold;
+	margin-bottom: 2em;
+}
+
+.comment-content p{font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-size:14px;line-height:260%;font-weight: 300;margin-bottom: 1em;}
+
+
+ol.comment-list, ol.comment-list ol {
+margin: 0;
+list-style: none;
+}
+
+ol.comment-list ol {
+padding-top: 10px;
+}
+
+ol.comment-list li {
+margin: 0;
+padding-bottom: 10px;
+}
+
+ol.comment-list li {
+	padding: 10px 15px;
+	margin-top: 10px;
+	border: 1px solid #eee;
+	background: #FAFAFA;
+	overflow: hidden;
+}
+
+ol.comment-list li.comment-level-odd {
+	background: #fff;
+}
+
+ol.comment-list li.comment-level-even {
+	background: #FAFAFA;
+}
+
+/*
+ol.comment-list li.comment-by-author {
+	border: 1px dashed #AAA;
+}
+*/
+
+ol.comment-list li .comment-reply {
+	text-align: right;
+}
+
+ol.comment-list li .comment-reply a {
+	font-size: 11px;
+	border: none;
+	color: #aaa;
+}
+
+ol.comment-list li .comment-reply a:hover {
+	color: #444;
+}
+
+.comment-meta {
+padding-bottom: 8px;
+/*border-bottom: 1px dashed #eee;*/
+color: #999;
+font-size: 11px;
+}
+.comment-author {
+display: block;
+font-size: 15px;
+color: #444;
+font-family:'Helvetica Neue', Helvetica,Microsoft yahei;
+}
+
+.comment-author cite.fn {
+font-style: normal;
+}
+
+.comment-body {
+overflow: hidden;
+}
+
+img.avatar {
+/*display: none;*/
+float: right;
+margin: 6px 10px 0 0;
+}
+
+.respond {
+margin-top: 20px;
+}
+
+ol.comment-list li .respond {
+border-top: 1px solid #ddd;
+padding-top: 10px;
+}
+
+#comment_form {
+	padding-right: 8px;
+}
+
+.respond .cancel-comment-reply {
+	float: right;
+	font-size: 11px;
+}
+
+.respond .cancel-comment-reply a {
+	border: none;
+	color: #aaa;
+}
+
+.respond .cancel-comment-reply a:hover {
+	color: #444;
+}
+
+#comment_form label {
+	font-size: 12px;
+	color: #555;
+	display: block;
+	font-weight: bold;
+}
+
+#comment_form label .required {
+	color: #C04E37;
+	padding-left: 5px;
+	font-size: 14px;
+}
+#comment_form .text {
+width: 100%;
+margin-right: 15px;
+}
+#comment_form textarea {
+width: 100%;
+height: 180px;
+}
+
+ol#comment_list li .respond .text {
+	_width: 400px;
+}
+
+ol#comment_list li .respond textarea {
+	_width: 400px;
+}
+
+/* side bar */
+#sidebar ul {
+	list-style: none; margin-left: 0; padding: 0;line-height:260%;
+}
+
+
+
+
+nav {text-align:center;background:#333; color:#fff; font-size:0.875em;line-height:24px;font-family:'Helvetica Neue', Helvetica,Microsoft yahei;font-weight: 300;}
+
+li{line-height:260%;}
+
+
+#QR{padding-top:20px;}
+#QR a{border:0}
+#QR img{width:180px;max-width:100%;display:inline-block;margin:.8em 2em 0 2em}
+#rewardButton{border:1px solid #ccc;line-height:36px;text-align:center;height:36px;display:block;border-radius:4px;-webkit-transition-duration:.4s;transition-duration:.4s;background-color:#fff;color:#999;margin:0 auto;padding:0 25px}
+#rewardButton:hover{color:#f77b83;border-color:#f77b83;outline-style:none}
