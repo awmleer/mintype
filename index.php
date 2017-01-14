@@ -22,7 +22,7 @@ $this->need('header.php');
 
               
               <h2><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
-              <div class="muted"><?php $this->author(); ?> · <?php $this->date('F j, Y'); ?> · <?php $this->category(','); ?></div>
+              <div class="muted"><?php $this->date('F j, Y'); ?> · <?php $this->category(','); ?></div>
               <?php $this->content('Continue...'); ?>
           </div>
       <?php endwhile; ?>
