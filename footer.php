@@ -2,24 +2,13 @@
 
 	<p class="footer">
                 Mail: haoguangbo@yeah.net
+                <!-- CNZZ统计 -->
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261169248'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1261169248' type='text/javascript'%3E%3C/script%3E"));</script>
 	</p>
 	<!-- end #footer -->
 
 
 	<?php $this->footer(); ?>
-
-
-<!-- 百度统计代码 -->
-
-   <script>
-// var _hmt = _hmt || [];
-// (function() {
-//   var hm = document.createElement("script");
-//   hm.src = "//hm.baidu.com/hm.js?ec75ab8f3643a634a3ff183e3a382ff9";
-//   var s = document.getElementsByTagName("script")[0]; 
-//   s.parentNode.insertBefore(hm, s);
-// })();
-</script>
 
 </body>
 </html>
